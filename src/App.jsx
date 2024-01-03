@@ -23,7 +23,7 @@ const App = () => {
                     <Hero />
                 </div>
                 <About />
-                <Projects />
+                {/* <Projects />
                 <Tech />
                 <Work />
                 <div className="relative z-0">
@@ -40,7 +40,7 @@ const App = () => {
                     draggable
                     pauseOnHover
                     theme="dark"
-                />
+                /> */}
             </div>
         </BrowserRouter>
     );
