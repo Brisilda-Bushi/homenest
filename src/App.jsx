@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import { ToastContainer, toast } from "react-toastify";
+import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
 
@@ -18,8 +18,8 @@ const App = () => {
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-tertiary">
-                <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
-                    <Navbar />
+                <Navbar />
+                <div className="bg-hero-pattern bg-fixed bg-cover bg-no-repeat bg-center ">
                     <Hero />
                 </div>
                 <About />

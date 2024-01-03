@@ -2,29 +2,26 @@ import React from "react";
 import Tilt from "react-parallax-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { services } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import image from "../assets/herobg.jpg";
 
-const ServiceCard = ({ index, title, icon }) => {
+const ServiceCard = () => {
     return (
-        <Tilt className="xs:w-[250px] w-full">
+        <Tilt className="w-full">
             <motion.div
-                variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
+                variants={fadeIn("right", "spring", 0.5 * 1, 0.75)}
                 className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
             >
                 <div
                     options={{ max: 45, scale: 1, speed: 450 }}
-                    className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col"
+                    className="bg-tertiary rounded-[20px] min-h-[280px] overflow-hidden flex justify-evenly items-center flex-col"
                 >
                     <img
-                        src={icon}
-                        alt={title}
-                        className="w-16 h-16 object-contain"
+                        src={image}
+                        alt="dummy image"
+                        className=" object-contain"
                     />
-                    <h3 className="text-white text-[20px] font-bold text-center">
-                        {title}
-                    </h3>
                 </div>
             </motion.div>
         </Tilt>
@@ -33,30 +30,40 @@ const ServiceCard = ({ index, title, icon }) => {
 
 const About = () => {
     return (
-        <>
-            <motion.div variants={textVariant()}>
-                <p className={styles.sectionSubText}>Introduction</p>
-                <h2 className={styles.sectionHeadText}>Overview.</h2>
-            </motion.div>
-            <motion.p
-                variants={fadeIn("", "", 0.1, 1)}
-                className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
-            >
-                Hi I am a Full Stack Developer with motivation to be learning
-                new technologies, started working in web development and would
-                love to continue learning mobile app development as well.
-            </motion.p>
-
-            <div className="mt-20 flex flex-wrap gap-10">
-                {services.map((service, index) => (
-                    <ServiceCard
-                        key={service.title}
-                        index={index}
-                        {...service}
-                    />
-                ))}
+        <div className="flex">
+            <div className="flex flex-col justify-start p-3 items-center">
+                <div className="w-5 h-5 rounded-full bg-[#C56E33]" />
+                <div className="w-1 sm:h-80 h-40 orange-gradient" />
             </div>
-        </>
+            <div>
+                <motion.div variants={textVariant()}>
+                    <p className={styles.sectionSubText}>Introduction</p>
+                    <h2 className={styles.sectionHeadText}>About.</h2>
+                </motion.div>
+                <motion.p
+                    variants={fadeIn("", "", 0.1, 1)}
+                    className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+                >
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Quasi deserunt, earum nemo dolorum sint voluptas modi
+                    adipisci itaque cum! Mollitia optio itaque magni at sapiente
+                    a odit expedita vero molestiae doloribus fugit debitis,
+                    dolor perferendis assumenda ullam facere consequuntur ea
+                    dignissimos voluptate dolore! Eius repellat vitae deserunt!
+                    Quam nemo quis eum culpa, quidem cupiditate ratione! Fuga
+                    qui odio, beatae ad commodi placeat sapiente fugit dolorem
+                    necessitatibus pariatur reiciendis distinctio magni eaque
+                    debitis tempore vero temporibus eveniet tempora! Beatae
+                    totam sint voluptatum, libero odio hic minima assumenda
+                    placeat cumque nisi in, corrupti quis nihil non temporibus
+                    accusamus rerum enim necessitatibus ut.
+                </motion.p>
+
+                <div className="mt-20 flex flex-wrap gap-10">
+                    <ServiceCard />
+                </div>
+            </div>
+        </div>
     );
 };
 
