@@ -47,6 +47,18 @@ const Navbar = () => {
                     </p>
                 </Link>
                 <ul className="list-none hidden sm:flex flex-row gap-10">
+                    <Link
+                        key="home"
+                        className={`${
+                            active === "" ? "text-white" : "text-secondary"
+                        } hover:text-white text-[18px] font-medium cursor-pointer`}
+                        onClick={() => {
+                            setActive("");
+                            window.scrollTo(0, 0);
+                        }}
+                    >
+                        <a href="/">Home</a>
+                    </Link>
                     {navLinks.map((nav) => (
                         <li
                             key={nav.id}

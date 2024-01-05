@@ -7,6 +7,7 @@ import github from "./github.png";
 import website from "./website.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import example from "./herobg.jpg";
 
 import css from "./tech/css.png";
 import nextjs from "./tech/nextjs.png";
@@ -36,6 +37,7 @@ import carrent from "./projects/carrent.png";
 import e_commerce from "./projects/ecommerce.png";
 
 export {
+    example,
     logo,
     backend,
     creator,

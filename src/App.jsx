@@ -4,15 +4,7 @@ import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
 
-import {
-    About,
-    Contact,
-    Work,
-    Hero,
-    Navbar,
-    Tech,
-    Projects,
-} from "./components";
+import { About, Contact, Hero, Navbar, Projects, Services } from "./components";
 
 const App = () => {
     return (
@@ -23,10 +15,9 @@ const App = () => {
                     <Hero />
                 </div>
                 <About />
-                {/* <Projects />
-                <Tech />
-                <Work />
-                <div className="relative z-0">
+                <Services />
+                <Projects />
+                {/* <div className="relative z-0">
                     <Contact />
                 </div>
                 <ToastContainer

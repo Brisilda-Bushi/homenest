@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 
 const Hero = () => {
