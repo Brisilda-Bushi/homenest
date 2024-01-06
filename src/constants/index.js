@@ -220,4 +220,22 @@ const services = [
     },
 ];
 
-export { services, technologies, experiences, projects };
+const mockItems = [
+    {
+        id: "item-1",
+        title: "slide 1",
+        photo: example,
+    },
+    {
+        id: "item-2",
+        title: "slide 2",
+        photo: example,
+    },
+    {
+        id: "item-3",
+        title: "slide 3",
+        photo: example,
+    },
+];
+
+export { services, technologies, experiences, projects, mockItems };

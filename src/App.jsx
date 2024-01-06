@@ -4,7 +4,15 @@ import { ToastContainer } from "react-toastify";
 
 import "react-toastify/dist/ReactToastify.css";
 
-import { About, Contact, Hero, Navbar, Projects, Services } from "./components";
+import {
+    About,
+    Contact,
+    Hero,
+    Navbar,
+    Projects,
+    Carousel,
+    Services,
+} from "./components";
 
 const App = () => {
     return (
@@ -16,8 +24,9 @@ const App = () => {
                 </div>
                 <About />
                 <Services />
-                <Projects />
-                {/* <div className="relative z-0">
+                <div className="background-orange-gradient">
+                    <Projects />
+                    <Carousel />
                     <Contact />
                 </div>
                 <ToastContainer
@@ -31,7 +40,7 @@ const App = () => {
                     draggable
                     pauseOnHover
                     theme="dark"
-                /> */}
+                />
             </div>
         </BrowserRouter>
     );

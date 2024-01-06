@@ -1,4 +1,6 @@
 import logo from "./logo.svg";
+import logoNoBack from "./logo-no-background.svg";
+import logoBB from "./logoBB.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -39,6 +41,8 @@ import e_commerce from "./projects/ecommerce.png";
 export {
     example,
     logo,
+    logoNoBack,
+    logoBB,
     backend,
     creator,
     mobile,

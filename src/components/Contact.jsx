@@ -1,9 +1,11 @@
 import React, { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
+import { logoNoBack, logoBB } from "../assets";
 import {
     serviceEmail,
     templateEmail,
@@ -83,70 +85,69 @@ const Contact = () => {
     };
 
     return (
-        <div className="xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden">
-            <motion.div
-                variants={slideIn("left", "tween", 0.2, 1)}
-                className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
-            >
-                <p className={styles.sectionSubText}>Get in touch</p>
-                <h3 className={styles.sectionHeadText}>Contact.</h3>
-                <form
-                    ref={formRef}
-                    onSubmit={handleSubmit}
-                    className="mt-12 flex flex-col gap-8"
+        <div>
+            <div className="xl:mt-12 flex gap-10 overflow-hidden">
+                <motion.div variants={textVariant()}>
+                    <div className="flex flex-col justify-start p-3 items-center">
+                        <div className="w-5 h-5 rounded-full bg-[#C56E33]" />
+                        <div className="w-1 sm:h-80 h-40 orange-gradient" />
+                    </div>
+                </motion.div>
+                <motion.div
+                    variants={fadeIn("", "", 0.1, 1)}
+                    className="flex-[0.75] p-8 rounded-2xl"
                 >
-                    <label className="flex flex-col">
-                        <span className="text-white font-medium mb-4">
-                            Your Name
-                        </span>
-                        <input
-                            type="text"
-                            name="name"
-                            value={form.name}
-                            onChange={handleChange}
-                            placeholder="What's your name?"
-                            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-                        />
-                    </label>
-                    <label className="flex flex-col">
-                        <span className="text-white font-medium mb-4">
-                            Your Email
-                        </span>
-                        <input
-                            type="email"
-                            name="email"
-                            value={form.email}
-                            onChange={handleChange}
-                            placeholder="What's your email?"
-                            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-                        />
-                    </label>
-                    <label className="flex flex-col">
-                        <span className="text-white font-medium mb-4">
-                            Your Message
-                        </span>
-                        <textarea
-                            rows="7"
-                            name="message"
-                            value={form.message}
-                            onChange={handleChange}
-                            placeholder="What do you want to say?"
-                            className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium"
-                        />
-                    </label>
-
-                    <button
-                        type="submit"
-                        className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl"
+                    <p className={styles.sectionSubText}>Get in touch</p>
+                    <h3 className={styles.sectionHeadText}>Contact.</h3>
+                    <div className="flex flex-wrap gap-10 m-10">
+                        <div>
+                            <p className={styles.sectionSubText}>Location</p>
+                            <p className="text-primary font-bold text-[20px]">
+                                London, UK
+                            </p>
+                        </div>
+                        <div>
+                            <p className={styles.sectionSubText}>Phone</p>
+                            <p className="text-primary font-bold text-[20px]">
+                                315454545314
+                            </p>
+                        </div>
+                        <div>
+                            <p className={styles.sectionSubText}>Email</p>
+                            <p className="text-primary font-bold text-[20px]">
+                                xyz@xyz.com
+                            </p>
+                        </div>
+                    </div>
+                </motion.div>
+            </div>
+            <div className="flex md:justify-between justify-center flex-wrap mt-20">
+                <div className="flex justify-center p-10 items-center">
+                    <img
+                        src={logoNoBack}
+                        alt="logo"
+                        className="size-24 object-contain"
+                    />
+                    <div className="pl-5 text-primary">
+                        <p>HomeNest Solutions</p>
+                        <p>Copyright © 2024</p>
+                    </div>
+                </div>
+                <div className="p-10">
+                    <Link
+                        to="https://brisildabushi.com/"
+                        className="flex justify-center items-center"
+                        target="_blank"
                     >
-                        {loading ? "Sending..." : "Send"}
-                    </button>
-                </form>
-            </motion.div>
-            <motion.div
-                variants={slideIn("right", "tween", 0.2, 1)}
-                className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
-            ></motion.div>
+                        <p className="pr-3 text-[#7fdbff]">Developed by BB</p>
+                        <img
+                            src={logoBB}
+                            alt="logo"
+                            className="size-16 object-contain"
+                        />
+                    </Link>
+                </div>
+            </div>
         </div>
     );
 };
