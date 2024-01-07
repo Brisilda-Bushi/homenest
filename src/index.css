@@ -43,6 +43,16 @@
     );
 }
 
+.white-gradient {
+    background: #ffffff;
+    background: linear-gradient(-90deg, #ffffff 0%, rgba(60, 51, 80, 0) 100%);
+    background: -webkit-linear-gradient(
+        -90deg,
+        #ffffff 0%,
+        rgba(60, 51, 80, 0) 100%
+    );
+}
+
 .background-orange-gradient {
     background: #c56e33;
     background: linear-gradient(-90deg, #c56e33 0%, rgba(60, 51, 80, 0) 100%);

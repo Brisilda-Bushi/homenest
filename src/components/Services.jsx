@@ -83,7 +83,7 @@ const Services = () => {
                     </div>
                 </div>
             ) : (
-                <div className="flex max-w-7xl">
+                <div className="flex">
                     <motion.div variants={textVariant()}>
                         <div className="flex flex-col justify-start p-3 items-center">
                             <div className="w-5 h-5 rounded-full bg-[#C56E33]" />
