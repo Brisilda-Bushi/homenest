@@ -11,11 +11,11 @@ const ServiceCard = () => {
         <div className="w-full">
             <motion.div
                 variants={fadeIn("right", "spring", 0.5 * 1, 0.75)}
-                className="w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card"
+                className="w-full orange-gradient p-[2px] rounded-[20px] shadow-card"
             >
                 <div
                     options={{ max: 45, scale: 1, speed: 450 }}
-                    className="bg-tertiary rounded-[20px] min-h-[280px] overflow-hidden flex justify-evenly items-center flex-col"
+                    className="rounded-[20px] min-h-[280px] overflow-hidden flex justify-evenly items-center flex-col"
                 >
                     <img
                         src={image}
