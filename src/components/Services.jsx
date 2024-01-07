@@ -32,7 +32,7 @@ const Services = () => {
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
-        const mediaQuery = window.matchMedia("(max-width: 800px)");
+        const mediaQuery = window.matchMedia("(max-width: 900px)");
 
         setIsMobile(mediaQuery.matches);
 
