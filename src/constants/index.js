@@ -52,6 +52,12 @@ const services = [
         image: electrical,
     },
     {
+        name: "Maintainance",
+        description:
+            "Elevate your property's well-being with our comprehensive maintenance services. From routine checks to emergency repairs, we ensure your space remains in peak condition. Our dedicated team delivers prompt, reliable solutions, enhancing the longevity and functionality of your property. Experience peace of mind with our meticulous maintenance expertise.",
+        image: carpentry,
+    },
+    {
         name: "Renovations",
         description:
             "Revitalize your home with our premier renovation services. Transform spaces with innovative designs and impeccable craftsmanship. From concept to completion, we tailor solutions to your unique style. Elevate living with our seamless and efficient renovation process. Experience the art of transformation with our expert team, delivering excellence at every step.",
