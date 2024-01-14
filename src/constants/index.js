@@ -52,12 +52,6 @@ const services = [
         image: electrical,
     },
     {
-        name: "Carpentry",
-        description:
-            "Crafting excellence in every detail, our carpentry services bring your vision to life. From custom furniture to intricate woodwork, our skilled carpenters blend precision and creativity. Elevate your space with timeless craftsmanship that reflects your unique style. Trust us for bespoke solutions that redefine the artistry of carpentry.",
-        image: carpentry,
-    },
-    {
         name: "Renovations",
         description:
             "Revitalize your home with our premier renovation services. Transform spaces with innovative designs and impeccable craftsmanship. From concept to completion, we tailor solutions to your unique style. Elevate living with our seamless and efficient renovation process. Experience the art of transformation with our expert team, delivering excellence at every step.",

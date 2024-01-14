@@ -62,13 +62,13 @@ const Services = () => {
                             </h2>
                             <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
                                 Discover a world of home transformation with our
-                                comprehensive services. From bespoke carpentry
-                                and exquisite flooring solutions to expert
-                                plumbing, electrical, and painting services, we
-                                offer a one-stop destination for elevating every
-                                aspect of your home. Our skilled artisans bring
-                                visions to life, ensuring precision, creativity,
-                                and unparalleled craftsmanship. Whether it's a
+                                comprehensive services. From repairs and
+                                exquisite flooring solutions to expert plumbing,
+                                electrical, and painting services, we offer a
+                                one-stop destination for elevating every aspect
+                                of your home. Our skilled artisans bring visions
+                                to life, ensuring precision, creativity, and
+                                unparalleled craftsmanship. Whether it's a
                                 kitchen or bathroom renovation or a full-scale
                                 home makeover, we blend style with
                                 functionality. Trust us for seamless processes,
@@ -108,19 +108,19 @@ const Services = () => {
                             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
                         >
                             Discover a world of home transformation with our
-                            comprehensive services. From bespoke carpentry and
-                            exquisite flooring solutions to expert plumbing,
-                            electrical, and painting services, we offer a
-                            one-stop destination for elevating every aspect of
-                            your home. Our skilled artisans bring visions to
-                            life, ensuring precision, creativity, and
-                            unparalleled craftsmanship. Whether it's a kitchen
-                            or bathroom renovation or a full-scale home
-                            makeover, we blend style with functionality. Trust
-                            us for seamless processes, efficient timelines, and
-                            an unwavering commitment to exceeding expectations.
-                            Elevate your living space with our diverse range of
-                            services – where innovation meets excellence.
+                            comprehensive services. From repairs and exquisite
+                            flooring solutions to expert plumbing, electrical,
+                            and painting services, we offer a one-stop
+                            destination for elevating every aspect of your home.
+                            Our skilled artisans bring visions to life, ensuring
+                            precision, creativity, and unparalleled
+                            craftsmanship. Whether it's a kitchen or bathroom
+                            renovation or a full-scale home makeover, we blend
+                            style with functionality. Trust us for seamless
+                            processes, efficient timelines, and an unwavering
+                            commitment to exceeding expectations. Elevate your
+                            living space with our diverse range of services –
+                            where innovation meets excellence.
                         </motion.p>
                         <div className="mt-20 flex flex-wrap items-stretch gap-7">
                             {services.map((project, index) => (
