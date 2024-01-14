@@ -61,15 +61,21 @@ const Services = () => {
                                 Services.
                             </h2>
                             <p className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Alias repellat sit fugit
-                                veniam harum voluptatum! Dolorem, laudantium
-                                incidunt culpa et quae inventore, assumenda
-                                dolores exercitationem reprehenderit accusamus
-                                dolor alias possimus provident ipsum maiores?
-                                Animi quo totam, voluptas sequi minus soluta!
-                                In, soluta eaque? Ad porro delectus autem iure
-                                odit tenetur?
+                                Discover a world of home transformation with our
+                                comprehensive services. From bespoke carpentry
+                                and exquisite flooring solutions to expert
+                                plumbing, electrical, and painting services, we
+                                offer a one-stop destination for elevating every
+                                aspect of your home. Our skilled artisans bring
+                                visions to life, ensuring precision, creativity,
+                                and unparalleled craftsmanship. Whether it's a
+                                kitchen or bathroom renovation or a full-scale
+                                home makeover, we blend style with
+                                functionality. Trust us for seamless processes,
+                                efficient timelines, and an unwavering
+                                commitment to exceeding expectations. Elevate
+                                your living space with our diverse range of
+                                services – where innovation meets excellence.
                             </p>
                         </div>
                     </div>
@@ -101,14 +107,20 @@ const Services = () => {
                             variants={fadeIn("", "", 0.1, 1)}
                             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
                         >
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit. Alias repellat sit fugit veniam harum
-                            voluptatum! Dolorem, laudantium incidunt culpa et
-                            quae inventore, assumenda dolores exercitationem
-                            reprehenderit accusamus dolor alias possimus
-                            provident ipsum maiores? Animi quo totam, voluptas
-                            sequi minus soluta! In, soluta eaque? Ad porro
-                            delectus autem iure odit tenetur?
+                            Discover a world of home transformation with our
+                            comprehensive services. From bespoke carpentry and
+                            exquisite flooring solutions to expert plumbing,
+                            electrical, and painting services, we offer a
+                            one-stop destination for elevating every aspect of
+                            your home. Our skilled artisans bring visions to
+                            life, ensuring precision, creativity, and
+                            unparalleled craftsmanship. Whether it's a kitchen
+                            or bathroom renovation or a full-scale home
+                            makeover, we blend style with functionality. Trust
+                            us for seamless processes, efficient timelines, and
+                            an unwavering commitment to exceeding expectations.
+                            Elevate your living space with our diverse range of
+                            services – where innovation meets excellence.
                         </motion.p>
                         <div className="mt-20 flex flex-wrap items-stretch gap-7">
                             {services.map((project, index) => (

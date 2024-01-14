@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import image from "../assets/herobg.jpg";
+import image from "../assets/Services/renovations3.jpg";
 
 const ServiceCard = () => {
     return (
@@ -46,19 +46,18 @@ const About = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
                 >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quasi deserunt, earum nemo dolorum sint voluptas modi
-                    adipisci itaque cum! Mollitia optio itaque magni at sapiente
-                    a odit expedita vero molestiae doloribus fugit debitis,
-                    dolor perferendis assumenda ullam facere consequuntur ea
-                    dignissimos voluptate dolore! Eius repellat vitae deserunt!
-                    Quam nemo quis eum culpa, quidem cupiditate ratione! Fuga
-                    qui odio, beatae ad commodi placeat sapiente fugit dolorem
-                    necessitatibus pariatur reiciendis distinctio magni eaque
-                    debitis tempore vero temporibus eveniet tempora! Beatae
-                    totam sint voluptatum, libero odio hic minima assumenda
-                    placeat cumque nisi in, corrupti quis nihil non temporibus
-                    accusamus rerum enim necessitatibus ut.
+                    Welcome to HomeNest, a dynamic enterprise forged by a shared
+                    passion for elevating living spaces. Committed to delivering
+                    excellence, our team strives to bring your vision to life
+                    through innovative designs and meticulous craftsmanship.
+                    With a focus on personalized service, we embark on a journey
+                    to redefine homes, offering comprehensive solutions spanning
+                    carpentry, flooring, plumbing, electrical work, painting,
+                    and renovations. Each project is a testament to our
+                    dedication and expertise, ensuring that your space not only
+                    meets but exceeds your expectations. Discover a
+                    collaborative approach to transforming your home with
+                    HomeNest.
                 </motion.p>
 
                 <div className="mt-20 flex flex-wrap gap-10">

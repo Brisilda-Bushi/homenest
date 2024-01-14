@@ -22,8 +22,8 @@ const ProjectsCard = () => {
                     <div
                         className={`grid aspect-[2] w-full place-items-center text-2xl text-white transition-all duration-700 ${
                             currentSlide === item.id
-                                ? "z-10 scale-150 bg-yellow-600"
-                                : "bg-violet-500"
+                                ? "z-10 scale-150 bg-transparent"
+                                : "bg-transparent"
                         }`}
                     >
                         <img src={item.photo} />

@@ -1,4 +1,16 @@
-import { example } from "../assets";
+import {
+    example,
+    bathroom,
+    carpentry,
+    electrical,
+    flooring,
+    kitchen,
+    painting,
+    plumbing,
+    renovationsOne,
+    renovationsTwo,
+    renovationsThree,
+} from "../assets";
 
 export const navLinks = [
     {
@@ -23,51 +35,51 @@ const services = [
     {
         name: "Painting",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
+            "Elevate your home's aesthetic with our premier painting services. Our skilled artisans bring walls to life, blending precision and creativity to transform spaces. From meticulous preparation to flawless finishes, we ensure your vision is realized. Trust us for a splash of color that defines style and sophistication in every brushstroke.",
 
-        image: example,
+        image: painting,
     },
     {
         name: "Plumbing",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Experience seamless plumbing solutions tailored to your needs. Our expert plumbers deliver reliable, efficient, and timely services. From minor repairs to major installations, we ensure your plumbing works flawlessly. Trust us for top-notch craftsmanship and unparalleled expertise. Your satisfaction is our priority – plumbing excellence at its finest.",
+        image: plumbing,
     },
     {
         name: "Electrical",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Illuminate your space with our trusted electrical services. Our skilled electricians provide efficient solutions, from wiring and installations to repairs and upgrades. Safety is paramount, and we guarantee quality workmanship. Choose us for reliable services that light up your home or business. Empower your space with our electrical expertise.",
+        image: electrical,
     },
     {
         name: "Carpentry",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Crafting excellence in every detail, our carpentry services bring your vision to life. From custom furniture to intricate woodwork, our skilled carpenters blend precision and creativity. Elevate your space with timeless craftsmanship that reflects your unique style. Trust us for bespoke solutions that redefine the artistry of carpentry.",
+        image: carpentry,
     },
     {
         name: "Renovations",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Revitalize your home with our premier renovation services. Transform spaces with innovative designs and impeccable craftsmanship. From concept to completion, we tailor solutions to your unique style. Elevate living with our seamless and efficient renovation process. Experience the art of transformation with our expert team, delivering excellence at every step.",
+        image: renovationsOne,
     },
     {
         name: "Kitchen",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Unleash the potential of your kitchen with our exceptional renovation services. Elevate functionality and aesthetics with innovative designs tailored to your culinary dreams. Our expert team transforms spaces into culinary havens, blending style and practicality. Trust us to create a kitchen that reflects your taste and enhances your culinary experience.",
+        image: kitchen,
     },
     {
         name: "Flooring",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Step into luxury with our flooring services. Elevate your space with exquisite flooring solutions tailored to your style. From hardwood to tile, our expert team ensures precision installation and flawless finishes. Unleash the beauty beneath your feet – redefine your space with our premium flooring services.",
+        image: flooring,
     },
     {
         name: "Bathroom",
         description:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.Alias repellat sit fugit veniam harum voluptatum!Dolorem, laudantium incidunt culpa et quae inventore.",
-        image: example,
+            "Revitalize your sanctuary with our expert bathroom renovation services. Transform your space into a spa-like retreat with innovative designs and meticulous craftsmanship. From concept to completion, we bring your vision to life, ensuring every detail reflects your style. Elevate your daily routine with our seamless and rejuvenating bathroom transformations.",
+        image: bathroom,
     },
 ];
 
@@ -75,17 +87,17 @@ const mockItems = [
     {
         id: "item-1",
         title: "slide 1",
-        photo: example,
+        photo: renovationsOne,
     },
     {
         id: "item-2",
         title: "slide 2",
-        photo: example,
+        photo: renovationsTwo,
     },
     {
         id: "item-3",
         title: "slide 3",
-        photo: example,
+        photo: renovationsThree,
     },
 ];
 

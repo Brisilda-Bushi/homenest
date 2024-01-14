@@ -26,19 +26,19 @@ const Projects = () => {
                     variants={fadeIn("", "", 0.1, 1)}
                     className="mt-4 text-white text-[17px] max-w-3xl leading-[30px]"
                 >
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Quasi deserunt, earum nemo dolorum sint voluptas modi
-                    adipisci itaque cum! Mollitia optio itaque magni at sapiente
-                    a odit expedita vero molestiae doloribus fugit debitis,
-                    dolor perferendis assumenda ullam facere consequuntur ea
-                    dignissimos voluptate dolore! Eius repellat vitae deserunt!
-                    Quam nemo quis eum culpa, quidem cupiditate ratione! Fuga
-                    qui odio, beatae ad commodi placeat sapiente fugit dolorem
-                    necessitatibus pariatur reiciendis distinctio magni eaque
-                    debitis tempore vero temporibus eveniet tempora! Beatae
-                    totam sint voluptatum, libero odio hic minima assumenda
-                    placeat cumque nisi in, corrupti quis nihil non temporibus
-                    accusamus rerum enim necessitatibus ut.
+                    Embark on a journey of tangible transformations through our
+                    real-life projects. Witness the magic of our carpentry
+                    services as custom-made furniture graces homes. Experience
+                    the allure of our flooring solutions, where each step echoes
+                    luxury and style. Our plumbing experts ensure seamless
+                    functionality, while our electrical services light up spaces
+                    with precision. Explore the vibrancy of our painting
+                    services, adding personality to walls. Kitchen renovations
+                    redefine culinary spaces, and bathroom transformations
+                    create spa-like retreats. With every project, we merge
+                    innovation, craftsmanship, and client vision, delivering
+                    real-life beauty that transcends expectations. Your dream
+                    home awaits, brought to life by our skilled hands.
                 </motion.p>
             </div>
         </div>
