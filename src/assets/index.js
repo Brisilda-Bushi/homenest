@@ -13,6 +13,8 @@ import flooring from "./Services/flooring.jpg";
 import kitchen from "./Services/kitchen.jpg";
 import painting from "./Services/painting.jpg";
 import plumbing from "./Services/plumbing.jpg";
+import maintainance from "./Services/maintainance.jpg";
+import extension from "./Services/extension.jpg";
 import renovationsOne from "./Services/renovations1.jpg";
 import renovationsTwo from "./Services/renovations2.jpg";
 import renovationsThree from "./Services/renovations3.jpg";
@@ -31,6 +33,8 @@ export {
     kitchen,
     painting,
     plumbing,
+    maintainance,
+    extension,
     renovationsOne,
     renovationsTwo,
     renovationsThree,

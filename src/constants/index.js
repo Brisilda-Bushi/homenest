@@ -1,12 +1,12 @@
 import {
-    example,
     bathroom,
-    carpentry,
     electrical,
     flooring,
     kitchen,
     painting,
     plumbing,
+    maintainance,
+    extension,
     renovationsOne,
     renovationsTwo,
     renovationsThree,
@@ -33,6 +33,18 @@ export const navLinks = [
 
 const services = [
     {
+        name: "Renovations",
+        description:
+            "Revitalize your home with our premier renovation services. Transform spaces with innovative designs and impeccable craftsmanship. From concept to completion, we tailor solutions to your unique style. Elevate living with our seamless and efficient renovation process. Experience the art of transformation with our expert team, delivering excellence at every step.",
+        image: renovationsOne,
+    },
+    {
+        name: "Extensions",
+        description:
+            "Expand your living space effortlessly with our expert house extensions service. Tailored to your needs, our skilled team turns dreams into reality, creating seamless additions that blend seamlessly with your existing home. From design to completion, trust us to craft functional, stylish extensions that redefine your home's possibilities.",
+        image: extension,
+    },
+    {
         name: "Painting",
         description:
             "Elevate your home's aesthetic with our premier painting services. Our skilled artisans bring walls to life, blending precision and creativity to transform spaces. From meticulous preparation to flawless finishes, we ensure your vision is realized. Trust us for a splash of color that defines style and sophistication in every brushstroke.",
@@ -55,13 +67,7 @@ const services = [
         name: "Maintainance",
         description:
             "Elevate your property's well-being with our comprehensive maintenance services. From routine checks to emergency repairs, we ensure your space remains in peak condition. Our dedicated team delivers prompt, reliable solutions, enhancing the longevity and functionality of your property. Experience peace of mind with our meticulous maintenance expertise.",
-        image: carpentry,
-    },
-    {
-        name: "Renovations",
-        description:
-            "Revitalize your home with our premier renovation services. Transform spaces with innovative designs and impeccable craftsmanship. From concept to completion, we tailor solutions to your unique style. Elevate living with our seamless and efficient renovation process. Experience the art of transformation with our expert team, delivering excellence at every step.",
-        image: renovationsOne,
+        image: maintainance,
     },
     {
         name: "Kitchen",

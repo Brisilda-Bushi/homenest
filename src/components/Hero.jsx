@@ -29,8 +29,8 @@ const Hero = () => {
                         <span className="text-[#C56E33]"> HomeNest</span>
                     </h1>
                     <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-                        Elevate, Innovate, Transform: Your Vision, Our
-                        Craftsmanship.
+                        Reimagine, Expand, Transform: Crafting Homes, Extending
+                        Dreams.
                     </p>
                 </div>
             </div>
