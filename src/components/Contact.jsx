@@ -52,8 +52,8 @@ const Contact = () => {
                         className="size-24 object-contain"
                     />
                     <div className="pl-5 text-primary">
-                        <p>HomeNest Solutions</p>
-                        <p>Copyright © 2024</p>
+                        <p className="font-montserrat">HomeNest Solutions</p>
+                        <p className="font-montserrat">Copyright © 2024</p>
                     </div>
                 </div>
                 <div className="p-10">

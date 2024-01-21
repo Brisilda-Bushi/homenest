@@ -5,6 +5,10 @@ module.exports = {
     mode: "jit",
     theme: {
         extend: {
+            fontFamily: {
+                rosario: "Rosario, sans-serif",
+                montserrat: "Montserrat Alternates, sans-serif",
+            },
             colors: {
                 primary: "#C56E33",
                 secondary: "#2A160C",

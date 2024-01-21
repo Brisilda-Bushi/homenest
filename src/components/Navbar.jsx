@@ -43,7 +43,7 @@ const Navbar = () => {
                             alt="logo"
                             className="size-24 object-contain pt-5"
                         />
-                        <p className="text-white text-[18px] pl-5 font-bold cursor-pointer flex">
+                        <p className="text-white text-[18px] font-montserrat pl-5 font-bold cursor-pointer flex">
                             HomeNest
                         </p>
                     </div>
@@ -59,7 +59,7 @@ const Navbar = () => {
                             window.scrollTo(0, 0);
                         }}
                     >
-                        <p>Home</p>
+                        <p className="font-montserrat">Home</p>
                     </Link>
                     {navLinks.map((nav) => (
                         <li
@@ -71,7 +71,9 @@ const Navbar = () => {
                             } hover:text-white text-[18px] font-medium cursor-pointer`}
                             onClick={() => setActive(nav.title)}
                         >
-                            <a href={`#${nav.id}`}>{nav.title}</a>
+                            <a className="font-montserrat" href={`#${nav.id}`}>
+                                {nav.title}
+                            </a>
                         </li>
                     ))}
                 </ul>
@@ -89,6 +91,21 @@ const Navbar = () => {
                         } p-6 bg-primary absolute top-20 right-0 mx-4 my-2 min-w[140px] z-10 rounded-xl`}
                     >
                         <ul className="list-none flex justify-end items-start flex-col gap-4">
+                            <Link
+                                key="home"
+                                className={`${
+                                    active === ""
+                                        ? "text-white"
+                                        : "text-secondary"
+                                } hover:text-white text-[18px] font-medium cursor-pointer`}
+                                onClick={() => {
+                                    setActive("");
+                                    window.scrollTo(0, 0);
+                                    setToggle(!toggle);
+                                }}
+                            >
+                                <p className="font-montserrat">Home</p>
+                            </Link>
                             {navLinks.map((nav) => (
                                 <li
                                     key={nav.id}
@@ -102,7 +119,12 @@ const Navbar = () => {
                                         setActive(nav.title);
                                     }}
                                 >
-                                    <a href={`#${nav.id}`}>{nav.title}</a>
+                                    <a
+                                        className="font-montserrat"
+                                        href={`#${nav.id}`}
+                                    >
+                                        {nav.title}
+                                    </a>
                                 </li>
                             ))}
                         </ul>
