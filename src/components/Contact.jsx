@@ -56,7 +56,7 @@ const Contact = () => {
                     />
                     <div className="pl-5 text-primary">
                         <p className="font-montserrat">HomeNest Solutions</p>
-                        <p className="font-montserrat">Copyright © 2024</p>
+                        <p className="font-montserrat">Copyright © 2025</p>
                     </div>
                 </div>
                 <div className="p-10">
