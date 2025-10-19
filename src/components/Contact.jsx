@@ -24,21 +24,24 @@ const Contact = () => {
                     <h3 className={styles.sectionHeadText}>Contact.</h3>
                     <div className="flex flex-wrap gap-10 m-10">
                         <div>
-                            <p className={styles.sectionSubText}>Location</p>
+                            <p className={styles.sectionSubText}>Email</p>
                             <p className="text-primary font-bold text-[20px]">
-                                London, UK
+                                info@homenest-ltd.co.uk
                             </p>
                         </div>
                         <div>
                             <p className={styles.sectionSubText}>Phone</p>
                             <p className="text-primary font-bold text-[20px]">
-                                315454545314
+                                Palmir Skambi: +44 744 354 2191
+                            </p>
+                            <p className="text-primary font-bold text-[20px]">
+                                Enrik Skambi: +44 730 540 9648
                             </p>
                         </div>
                         <div>
-                            <p className={styles.sectionSubText}>Email</p>
+                            <p className={styles.sectionSubText}>Location</p>
                             <p className="text-primary font-bold text-[20px]">
-                                xyz@xyz.com
+                                London, UK
                             </p>
                         </div>
                     </div>
