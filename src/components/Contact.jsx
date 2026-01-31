@@ -32,10 +32,10 @@ const Contact = () => {
                         <div>
                             <p className={styles.sectionSubText}>Phone</p>
                             <p className="text-primary font-bold text-[20px]">
-                                Palmir Skambi: +44 744 354 2191
+                                Palmir Skampi: +44 744 354 2191
                             </p>
                             <p className="text-primary font-bold text-[20px]">
-                                Enrik Skambi: +44 730 540 9648
+                                Enrik Skampi: +44 730 540 9648
                             </p>
                         </div>
                         <div>
